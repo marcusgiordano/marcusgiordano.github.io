@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+
+        <script>
+        (function (exports, d) {
+            var _isReady = false,
+                _event,
+                _fns = [];
+
+            function onReady(event) {
+                d.removeEventListener("DOMContentLoaded", onReady);
+                _isReady = true;
+                _event = event;
+                _fns.forEach(function (_fn) {
+                    var fn = _fn[0],
+                        context = _fn[1];
+                    fn.call(context || exports, window.jQuery);
+                });
+            }
+
+            function onReadyIe(event) {
+                if (d.readyState === "complete") {
+                    d.detachEvent("onreadystatechange", onReadyIe);
+                    _isReady = true;
+                    _event = event;
+                    _fns.forEach(function (_fn) {
+                        var fn = _fn[0],
+                            context = _fn[1];
+                        fn.call(context || exports, event);
+                    });
+                }
+            }
+
+            d.addEventListener && d.addEventListener("DOMContentLoaded", onReady) ||
+            d.attachEvent && d.attachEvent("onreadystatechange", onReadyIe);
+
+            function domReady(fn, context) {
+                if (_isReady) {
+                    fn.call(context, _event);
+                }
+
+                _fns.push([fn, context]);
+            }
+
+            exports.mesmerizeDomReady = domReady;
+        })(window, document);
+    </script>
+    <title>Main</title>
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Main &raquo; Feed" href="http://localhost:8080/?feed=rss2" />
+<link rel="alternate" type="application/rss+xml" title="Main &raquo; Comments Feed" href="http://localhost:8080/?feed=comments-rss2" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/localhost:8080\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='companion-bundle-css'   data-href='http://localhost:8080/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/css/companion.bundle.min.css?ver=1.6.97' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-style-css'  href='http://localhost:8080/wp-content/themes/mesmerize/style.min.css?ver=1.6.72' type='text/css' media='all' />
+<style id='mesmerize-style-inline-css' type='text/css'>
+img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
+/** cached kirki style */.header-homepage .header-description-row{padding-top:5%;padding-bottom:8%;}.inner-header-description{padding-top:8%;padding-bottom:8%;}@media screen and (max-width:767px){.header-homepage .header-description-row{padding-top:10%;padding-bottom:10%;}}@media only screen and (min-width: 768px){.header-content .align-holder{width:80%!important;}.header-homepage:not(.header-slide) .header-hero-media{-webkit-flex-basis:29%;-moz-flex-basis:29%;-ms-flex-preferred-size:29%;flex-basis:29%;max-width:29%;width:29%;}.header-homepage:not(.header-slide) .header-hero-content{-webkit-flex-basis:calc(100% - 29%)!important;-moz-flex-basis:calc(100% - 29%)!important;-ms-flex-preferred-size:calc(100% - 29%)!important;flex-basis:calc(100% - 29%)!important;max-width:calc(100% - 29%)!important;width:calc(100% - 29%)!important;}.inner-header-description{text-align:center!important;}}
+</style>
+<link rel='stylesheet' id='mesmerize-style-bundle-css'  href='http://localhost:8080/wp-content/themes/mesmerize/assets/css/theme.bundle.min.css?ver=1.6.72' type='text/css' media='all' />
+<link rel='stylesheet' id='mesmerize-fonts-css'   data-href='https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C600%2C700%7CMuli%3A300%2C300italic%2C400%2C400italic%2C600%2C600italic%2C700%2C700italic%2C900%2C900italic%7CPlayfair+Display%3A400%2C400italic%2C700%2C700italic&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<script type='text/javascript' src='http://localhost:8080/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript'>
+    
+        (function () {
+            function setHeaderTopSpacing() {
+
+                setTimeout(function() {
+                  var headerTop = document.querySelector('.header-top');
+                  var headers = document.querySelectorAll('.header-wrapper .header,.header-wrapper .header-homepage');
+
+                  for (var i = 0; i < headers.length; i++) {
+                      var item = headers[i];
+                      item.style.paddingTop = headerTop.getBoundingClientRect().height + "px";
+                  }
+
+                    var languageSwitcher = document.querySelector('.mesmerize-language-switcher');
+
+                    if(languageSwitcher){
+                        languageSwitcher.style.top = "calc( " +  headerTop.getBoundingClientRect().height + "px + 1rem)" ;
+                    }
+                    
+                }, 100);
+
+             
+            }
+
+            window.addEventListener('resize', setHeaderTopSpacing);
+            window.mesmerizeSetHeaderTopSpacing = setHeaderTopSpacing
+            mesmerizeDomReady(setHeaderTopSpacing);
+        })();
+    
+    
+</script>
+<script type='text/javascript' src='http://localhost:8080/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<link rel='https://api.w.org/' href='http://localhost:8080/index.php?rest_route=/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://localhost:8080/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://localhost:8080/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel="canonical" href="http://localhost:8080/" />
+<link rel='shortlink' href='http://localhost:8080/' />
+<link rel="alternate" type="application/json+oembed" href="http://localhost:8080/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Flocalhost%3A8080%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://localhost:8080/index.php?rest_route=%2Foembed%2F1.0%2Fembed&#038;url=http%3A%2F%2Flocalhost%3A8080%2F&#038;format=xml" />
+    <style data-name="header-overlap-with">
+        @media screen and (min-width: 768px) {
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
+                padding-bottom: 95px;
+            }
+
+            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .page-content div[data-overlap]:first-of-type > div:not([class*="section-separator"]) {
+                margin-top: -95px;
+            }
+        }
+    </style>
+    
+            <style data-name="header-gradient-overlay">
+            .header-homepage .background-overlay {
+                background: linear-gradient(142deg , rgba(244,59,71, 0.8) 0%, rgba(69,58,148, 0.8) 100%);
+            }
+        </style>
+        <script type="text/javascript" data-name="async-styles">
+        (function () {
+            var links = document.querySelectorAll('link[data-href]');
+            for (var i = 0; i < links.length; i++) {
+                var item = links[i];
+                item.href = item.getAttribute('data-href')
+            }
+        })();
+    </script>
+        <style id="page-content-custom-styles">
+            </style>
+        <style data-name="background-content-colors">
+        .mesmerize-inner-page .page-content,
+        .mesmerize-inner-page .content,
+        .mesmerize-front-page.mesmerize-content-padding .page-content {
+            background-color: #F5FAFD;
+        }
+    </style>
+    </head>
+
+<body class="home page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-41 overlap-first-section mesmerize-front-page mesmerize-content-no-padding ">
+
+
+<div id="page-top" class="header-top homepage">
+            <div class="header-top-bar ">
+            <div class="">
+                <div class="header-top-bar-inner row middle-xs start-xs ">
+                        <div class="header-top-bar-area  col-xs area-left">
+            </div>
+                            <div class="header-top-bar-area  col-xs-fit area-right">
+            <div data-type="group"  data-dynamic-mod="true" class="top-bar-social-icons">
+        
+    </div>
+
+        </div>
+                    </div>
+            </div>
+        </div>
+            <div class="navigation-bar coloured-nav homepage"  data-sticky='0'  data-sticky-mobile='1'  data-sticky-to='top' >
+    <div class="navigation-wrapper ">
+    	<div class="row basis-auto">
+	        <div class="logo_col col-xs col-sm-fit">
+	            <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="http://localhost:8080/">Main</a>	        </div>
+	        <div class="main_menu_col col-xs">
+	            <div id="mainmenu_container" class="active-line-bottom main-menu dropdown-menu row"><ul id="main_menu" class="active-line-bottom main-menu dropdown-menu"><li class="page_item page-item-92"><a href="http://localhost:8080/?page_id=92">Antelope Canyon Timeline</a></li><li class="page_item page-item-19"><a href="http://localhost:8080/?page_id=19">Erosion</a></li><li class="page_item page-item-41 current_page_item"><a href="http://localhost:8080/">Home</a></li><li class="page_item page-item-20"><a href="http://localhost:8080/?page_id=20">Weathering</a></li></ul></div>    <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper" data-direction="right" data-width="300px" data-push="false">
+        <div class="bubble"></div>
+        <i class="fa fa-bars"></i>
+    </a>
+    <div id="offcanvas-wrapper" class="hide force-hide  offcanvas-right">
+        <div class="offcanvas-top">
+            <div class="logo-holder">
+                <a class="text-logo" data-type="group"  data-dynamic-mod="true" href="http://localhost:8080/">Main</a>            </div>
+        </div>
+        <div id="offcanvas_menu" class="offcanvas_menu"><ul id="offcanvas_menu" class="offcanvas_menu"><li class="page_item page-item-92"><a href="http://localhost:8080/?page_id=92">Antelope Canyon Timeline</a></li><li class="page_item page-item-19"><a href="http://localhost:8080/?page_id=19">Erosion</a></li><li class="page_item page-item-41 current_page_item"><a href="http://localhost:8080/">Home</a></li><li class="page_item page-item-20"><a href="http://localhost:8080/?page_id=20">Weathering</a></li></ul></div>
+            </div>
+    	        </div>
+	    </div>
+    </div>
+</div>
+</div>
+
+
+<div id="page" class="site">
+
+            <div class="header-wrapper">
+            <div  class='header-homepage  color-overlay' style=''>
+                <div class="background-overlay"></div>                                
+    <div class="header-description gridContainer media-on-right">
+        <div class="row header-description-row  ">
+    <div class="header-hero-content col-md col-xs-12">
+        <div class="row header-hero-content-v-align  middle-sm">
+            <div class="header-content col-xs-12">
+                <div class="align-holder left">
+					<h1 class="hero-title">Weathering and Erosion</h1><p class="header-subtitle">You can set this subtitle from the customizer.</p><div data-dynamic-mod-container class="header-buttons-wrapper"><a class="button big color1 round" target="_self" href="#" >Action Button 1</a><a class="button big color-white round outline" target="_blank" href="#" >Action button</a></div>                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="header-hero-media col-md col-xs-12">
+        <div class="row header-hero-media-v-align middle-sm">
+            <div class="col-xs-12">
+				    <div class="flexbox center-xs end-sm middle-xs">
+        <div class="overlay-box">
+            <div class="overlay-box-offset  offset-border shadow-medium hide-xs " style="transform:translate(-13%, 10%);width:100%;height:100%;border-color:rgba(255,255,255,0.726);z-index:-1;border-width:11px;"></div>
+            <img class="homepage-header-image "  src="http://localhost:8080/wp-content/uploads/2018/10/cropped-antelope-canyon-arizona-united-states-1.jpg"/>        </div>
+    </div>
+                </div>
+        </div>
+    </div>
+
+</div>
+    </div>
+    
+        <script>
+        window.mesmerizeSetHeaderTopSpacing();
+    </script>
+                    
+                                            </div>
+        </div>
+        
+    <div class="page-content">
+        <div class="content">
+            <div  id="overlappable-4" style="background-color: #ffffff;" data-label="Overlappable" data-id="overlappable-4" data-export-id="overlappable-4" data-category="overlappable" class="overlappable-4 content-section content-section-spacing" data-overlap="true">
+<div  class="gridContainer">
+<div  data-type="row" class="row spaced-cols text-center">
+<div  class="col-xs-12 col-sm-4 col-padding">
+
+<a  data-cp-link="1" href="http://localhost:8080?page_id=20" target="_self" rel="noopener"><i  class="fa icon shadow-large-black aligncenter color1 reverse round large fa-cogs"></i></a>
+<div  data-type="column" class="">What is Weathering</div>
+</div>
+<div  class="col-xs-12 col-sm-4 col-padding">
+
+<a  data-cp-link="1" href="http://localhost:8080?page_id=19" target="_self"><i  class="fa icon large shadow-large-black round aligncenter reverse color1 fa-magic"></i></a>
+<div  data-type="column" class="">
+
+What is Erosion
+
+</div>
+</div>
+<div  class="col-xs-12 col-sm-4 col-padding">
+
+<a  data-cp-link="1" href="http://localhost:8080?page_id=92&amp;preview=true" target="_self" rel="noopener"><i  class="fa icon shadow-large-black aligncenter color1 reverse round large fa-cogs"></i></a>
+<div  data-type="column" class="">
+
+Antelope Canyon
+
+</div>
+</div>
+</div>
+</div>
+</div>        </div>
+    </div>
+
+	<div  class='footer footer-content-lists footer-border-accent'>
+    <div  class='footer-content'>
+        <div class="gridContainer">
+            <div class="row">
+                <div class="col-sm-8 flexbox">
+                    <div class="row widgets-row">
+                        <div class="col-sm-4">
+                                                    </div>
+                        <div class="col-sm-4">
+                                                    </div>
+                        <div class="col-sm-4">
+                                                    </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 flexbox center-xs middle-xs content-section-spacing-medium footer-bg-accent">
+                  <div>
+                    <div class="footer-logo space-bottom-small">
+                        <h2><span data-type="group"  data-dynamic-mod="true">Main</span></h2>
+                    </div>
+                    <p  class="copyright">&copy;&nbsp;&nbsp;2018&nbsp;Main.&nbsp;Built using WordPress and the <a target="_blank" href="https://extendthemes.com/go/built-with-mesmerize/" class="mesmerize-theme-link">Mesmerize Theme</a></p>                        <div data-type="group"  data-dynamic-mod="true" class="footer-social-icons">
+                      <a target="_blank"  class="social-icon" href="">
+                  <i class="fa fa-facebook-official"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="">
+                  <i class="fa fa-twitter-square"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="">
+                  <i class="fa fa-instagram"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="">
+                  <i class="fa fa-google-plus-square"></i>
+              </a>
+                            <a target="_blank"  class="social-icon" href="">
+                  <i class="fa fa-youtube-square"></i>
+              </a>
+              
+    </div>
+
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+	</div>
+<script type='text/javascript'  defer="defer" src='http://localhost:8080/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/js/companion.bundle.min.js?ver=1.6.97'></script>
+<script type='text/javascript'  defer="defer" src='http://localhost:8080/wp-includes/js/imagesloaded.min.js?ver=3.2.0'></script>
+<script type='text/javascript'  defer="defer" src='http://localhost:8080/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mesmerize_backstretch = {"images":["http:\/\/localhost:8080\/wp-content\/themes\/mesmerize\/assets\/images\/slideshow_slide1.jpg","http:\/\/localhost:8080\/wp-content\/uploads\/2018\/10\/arizona-rock_824_600x450.jpg"],"duration":"5000","transitionDuration":"1000","animateFirst":""};
+/* ]]> */
+</script>
+<script type='text/javascript'  defer="defer" src='http://localhost:8080/wp-content/themes/mesmerize/assets/js/theme.bundle.min.js?ver=1.6.72'></script>
+<script type='text/javascript'  defer="defer" src='http://localhost:8080/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+</body>
+</html>
