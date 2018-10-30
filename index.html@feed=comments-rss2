@@ -6,7 +6,7 @@
 	
 	>
 <channel>
-	<title>Comments for Main</title>
+	<title>Comments for </title>
 	<atom:link href="http://localhost/?feed=comments-rss2" rel="self" type="application/rss+xml" />
 	<link>http://localhost:8080</link>
 	<description></description>
