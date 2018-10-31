@@ -84,7 +84,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 <link rel='stylesheet' id='elementor-animations-css'  href='http://localhost:8080/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='http://localhost:8080/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-global-css'  href='http://localhost:8080/wp-content/uploads/elementor/css/global.css?ver=1540443957' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-19-css'  href='http://localhost:8080/wp-content/uploads/elementor/css/post-19.css?ver=1540977515' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-19-css'  href='http://localhost:8080/wp-content/uploads/elementor/css/post-19.css?ver=1540979089' type='text/css' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css'   data-href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=4.9.8' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost:8080/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript'>
@@ -270,7 +270,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="484b276" class="elementor-element elementor-element-484b276 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><ul><li>Wind erosion: this type of erosion is when loose part of a material (In this case rock fragments or sand) is moved by the wind, e.g. sand being blown around.</li></ul></div>
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>Wind erosion: this type of erosion is when loose part of a material (in this case rock fragments or sand) is moved by the wind, e.g. sand being blown around.</li></ul></div>
 				</div>
 				</div>
 						</div>
@@ -299,7 +299,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="d754797" class="elementor-element elementor-element-d754797 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><ul><li>Water erosion: this type of erosion is when a loose part of a material (in this case rocks) is moved by water, e.g. the Grand Canyon was formed by water erosion as the water in the Colorado river moved down and hit the end it eroded the weathered and loose rocks eventually making it&#8217;s way through. </li></ul></div>
+					<div class="elementor-text-editor elementor-clearfix"><ul><li>Water erosion: this type of erosion is when a loose part of a material (in this case rocks) is moved by water. E.g. the Grand Canyon was formed by water erosion. Rocks in the water of the Colorado river gradually eroded all the way through to form the canyon. </li></ul></div>
 				</div>
 				</div>
 						</div>
