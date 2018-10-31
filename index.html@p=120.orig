@@ -84,7 +84,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 <link rel='stylesheet' id='elementor-animations-css'  href='http://localhost:8080/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=2.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-frontend-css'  href='http://localhost:8080/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=2.2.4' type='text/css' media='all' />
 <link rel='stylesheet' id='elementor-global-css'  href='http://localhost:8080/wp-content/uploads/elementor/css/global.css?ver=1540443957' type='text/css' media='all' />
-<link rel='stylesheet' id='elementor-post-120-css'  href='http://localhost:8080/wp-content/uploads/elementor/css/post-120.css?ver=1540889269' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-post-120-css'  href='http://localhost:8080/wp-content/uploads/elementor/css/post-120.css?ver=1540977516' type='text/css' media='all' />
 <link rel='stylesheet' id='google-fonts-1-css'   data-href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;ver=4.9.8' type='text/css' media='all' />
 <script type='text/javascript' src='http://localhost:8080/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
 <script type='text/javascript'>
@@ -246,7 +246,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="d650ae2" class="elementor-element elementor-element-d650ae2 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>The Antelope canyon is a slot canyon (a canyon formed by the wearing of water and is deeper than it is wide). The canyon was formed from 1 major type of weathering and 2 types of erosion. These types of weathering and erosion are:</p><ol><li>Physical weathering: the Antelope canyon used water and wind to destroy the sand and sand stone through wind and water hitting it therefore has used Physical weathering.</li><li>Wind erosion: The Antelope canyon used Wind erosion when the sand stone was being made and the wind moves the sand over the wet sand to create sandstone and when moving away the weathered rocks and loose sand.</li><li>Water erosion: The Antelope canyon used water erosion when flash flooding happened inside the canyon and flushed out the weathered rocks.</li></ol></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>The Antelope canyon is a slot canyon (a canyon formed by the wearing of water and is deeper than it is wide). The canyon was formed from 1 major type of weathering and 2 types of erosion. These types of weathering and erosion are:</p><ol><li>Physical weathering: the Antelope canyon used physical weathering to destroy the sand and sand stone through wind and water continuously hitting the sand and sandstone, e.g. when flash flooding happened and the sand stone was being continuously hit by water.</li><li>Wind erosion: the Antelope canyon used wind erosion when the sand stone was being made as the wind moved the dry sand over the wet sand to create sandstone it is also used to move loose pieces of sandstone.</li><li>Water erosion: the Antelope canyon also used water erosion when flash flooding happened inside the canyon and the water flushed out the weathered rocks.</li></ol></div>
 				</div>
 				</div>
 						</div>
@@ -298,7 +298,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="6fcafaf" class="elementor-element elementor-element-6fcafaf elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-large">Past ( 180 million years ago )</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-large">Past (180 million years ago)</h2>		</div>
 				</div>
 						</div>
 			</div>
@@ -332,7 +332,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="d2af253" class="elementor-element elementor-element-d2af253 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>Antelope canyon used to be part of flat desert in Arizona, USA. Over millions of years of flash flooding and raining the sand was wet and when the wind blew the dry sand above it buried the wet sand and formed sandstone. This repeated making multiple layers of sandstone which eventually formed the canyons walls.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>Antelope canyon used to be part of flat desert in Arizona, USA. Over millions of years of flash flooding and raining the sand was wet.  When the wind would come it blew the dry sand above the wet sand and buried it causing the wet sand to dry and harden eventually forming sandstone. This repeated making multiple layers of sandstone which eventually formed the canyons walls.</p></div>
 				</div>
 				</div>
 						</div>
@@ -349,7 +349,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="f764b50" class="elementor-element elementor-element-f764b50 elementor-widget elementor-widget-heading" data-element_type="heading.default">
 				<div class="elementor-widget-container">
-			<h2 class="elementor-heading-title elementor-size-large">Present ( 2018 )</h2>		</div>
+			<h2 class="elementor-heading-title elementor-size-large">Present (2018)</h2>		</div>
 				</div>
 						</div>
 			</div>
@@ -383,7 +383,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="4331472" class="elementor-element elementor-element-4331472 elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>After the sandstone walls where made the sand that had not been hardened was moved out by the wind and the walls got its pattens from water moving through the canyon and has now formed what we see today.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>After the sandstone walls were made the sand that had not been hardened was moved out by the wind. The walls got its pattens from water wind hitting the canyon walls making bits of sandstone fall of and become eroded by the wind and water causing what we see today.</p></div>
 				</div>
 				</div>
 						</div>
@@ -434,7 +434,7 @@ img.logo.dark, img.custom-logo{width:auto;max-height:70px !important;}
 					<div class="elementor-widget-wrap">
 				<div data-id="892b5ec" class="elementor-element elementor-element-892b5ec elementor-widget elementor-widget-text-editor" data-element_type="text-editor.default">
 				<div class="elementor-widget-container">
-					<div class="elementor-text-editor elementor-clearfix"><p>In the future the Antelope canyons will most likely increase depth as more flash flooding and raining will make it&#8217;s way through the sand. Antelope canyon will most likely have collapsed at the top as the water weathers the bottom of the walls causing the two walls to collapse onto each other.</p></div>
+					<div class="elementor-text-editor elementor-clearfix"><p>In the future the Antelope canyons will most likely increase depth as more flash flooding and raining will make it&#8217;s way through the sand. The Antelope canyon will most likely have collapsed at the top as the water and wind weather the bottom of the walls causing the two walls to collapse onto each other.</p></div>
 				</div>
 				</div>
 						</div>
